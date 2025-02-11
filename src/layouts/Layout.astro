@@ -1,6 +1,5 @@
 ---
 import Navbar from "../components/navbar/Navbar.tsx";
-import Providers from "./Providers";
 const { title } = Astro.props;
 ---
 
@@ -14,10 +13,8 @@ const { title } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
-    <Providers>
-      <Navbar>
-        <slot />
-      </Navbar>
-    </Providers>
+    <Navbar client:load>
+      <slot />
+    </Navbar>
   </body>
 </html>
