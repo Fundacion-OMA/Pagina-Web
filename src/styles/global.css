@@ -1,13 +1,19 @@
 @import "tailwindcss";
 
-html,
-body {
+html {
     margin: 0;
     width: 100%;
     height: 100%;
 }
 
-/*@theme {
+@theme {
     --color-oma-white: #e2e2e2;
     --color-oma-ligthgray: #cecece;
-}*/
+    --color-oma-black: #111111;
+}
+
+@layer components {
+    .box {
+        @apply rounded-[10px] border-black border-2 shadow-oma-black shadow-[6px_6px_0];
+    }
+}
