@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="flex flex-col gap-y-2 relative">
       <RoleSelect />
-      <nav className="bg-oma-ligthgray box flex px-[25px] py-[20px] box-content h-[32px]">
+      <nav className="bg-oma-lightgray box flex px-[25px] py-[20px] box-content h-[32px]">
         <img className="mr-auto" src="/icons/hamb_menu.svg" />
         <div
           className={`flex ${

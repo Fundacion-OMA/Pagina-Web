@@ -13,11 +13,14 @@ html {
 
 @theme {
   --color-oma-white: #e2e2e2;
-  --color-oma-ligthgray: #cecece;
+  --color-oma-lightgray: #cecece;
   --color-oma-black: #111111;
   --color-oma-blue: #a1bfe7;
   --color-oma-pink: #e5b0e1;
-  --color-oma-green: #9adebb;
+  --color-oma-algaegreen: #9adebb;
+  --color-oma-shilo: #e7acac;
+  --color-oma-green: #b6e294;
+  --color-oma-lightblue: #aae4e0;
   --font-display: "Neue Regrade", sans-serif;
 }
 

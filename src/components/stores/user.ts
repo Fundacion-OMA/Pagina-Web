@@ -10,8 +10,8 @@ export enum Roles {
   ADMIN = "admin",
   PARTICIPANT = "participant",
   JURY = "jury",
-  REGIONALADMIN = "regionaladmin",
-  SCHOOLADMIN = "schooladmin",
+  REGIONAL_ADMIN = "regionaladmin",
+  SCHOOL_ADMIN = "schooladmin",
 }
 
 const $user = deepMap<User>({
