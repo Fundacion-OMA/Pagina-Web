@@ -1,19 +1,25 @@
 @import "tailwindcss";
 
 html {
-    margin: 0;
-    width: 100%;
-    height: 100%;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("/fonts/neue_regrade_variable.ttf") format("truetype");
 }
 
 @theme {
-    --color-oma-white: #e2e2e2;
-    --color-oma-ligthgray: #cecece;
-    --color-oma-black: #111111;
+  --color-oma-white: #e2e2e2;
+  --color-oma-ligthgray: #cecece;
+  --color-oma-black: #111111;
+  --font-display: "Neue Regrade", sans-serif;
 }
 
 @layer components {
-    .box {
-        @apply rounded-[10px] border-black border-2 shadow-oma-black shadow-[6px_6px_0];
-    }
+  .box {
+    @apply rounded-[10px] border-black border-2 shadow-oma-black shadow-[6px_6px_0];
+  }
 }
