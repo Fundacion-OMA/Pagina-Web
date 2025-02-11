@@ -7,7 +7,7 @@ const Navbar = () => {
   const { role } = user;
   const isAnon = role === Roles.ANON;
   return (
-    <div className="flex flex-col gap-y-2">
+    <div className="flex flex-col gap-y-2 relative">
       <RoleSelect />
       <nav className="bg-oma-ligthgray box flex px-[25px] py-[20px] box-content h-[32px]">
         <img className="mr-auto" src="/icons/hamb_menu.svg" />
