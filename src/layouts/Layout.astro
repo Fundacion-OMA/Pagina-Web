@@ -13,7 +13,7 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body class="bg-oma-white bg-[url(/bg_grid.png)] pt-[65px] px-[20px]">
-        <Navbar/>
+        <Navbar client:load/>
         <main class="mt-[33px]">
             <slot />
         </main>
