@@ -1,19 +1,35 @@
 @import "tailwindcss";
 
 html {
-    margin: 0;
-    width: 100%;
-    height: 100%;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("/fonts/neue_regrade_variable.ttf") format("truetype");
 }
 
 @theme {
-    --color-oma-white: #e2e2e2;
-    --color-oma-ligthgray: #cecece;
-    --color-oma-black: #111111;
+  --color-oma-white: #e2e2e2;
+  --color-oma-lightgray: #cecece;
+  --color-oma-black: #111111;
+  --color-oma-blue: #a1bfe7;
+  --color-oma-pink: #e5b0e1;
+  --color-oma-algaegreen: #9adebb;
+  --color-oma-shilo: #e7acac;
+  --color-oma-green: #b6e294;
+  --color-oma-lightblue: #aae4e0;
+  --color-oma-yellow: #e2dd94;
+  --color-oma-lightyellow: #e7e3ac;
+  --color-oma-purple: #a79ade;
+  --color-oma-lightpurple: #bdb3e6;
+  --font-display: "Neue Regrade", sans-serif;
 }
 
 @layer components {
-    .box {
-        @apply rounded-[10px] border-black border-2 shadow-oma-black shadow-[6px_6px_0];
-    }
+  .box {
+    @apply rounded-[10px] border-black border-2 shadow-oma-black shadow-[6px_6px_0];
+  }
 }

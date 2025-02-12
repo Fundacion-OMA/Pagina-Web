@@ -4,7 +4,7 @@ import useAuth from "../hooks/useAuth";
 const RoleSelect: React.FC = () => {
   const { user, changeRole } = useAuth();
   return (
-    <form>
+    <form className="absolute -top-[32px]">
       <select
         value={user.role}
         onChange={(e) => {
