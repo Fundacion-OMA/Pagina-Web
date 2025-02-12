@@ -13,7 +13,7 @@ const BoxButton: React.FC<BoxButtonProps> = ({ className, ...props }) => {
       onClick={() => (window.location.href = props.url)}
     >
       <img src={props.iconLink} alt="" />
-      <span className="text-left text-black font-bold font-['Neue Regrade']">
+      <span className="text-left text-black font-bold font-['Neue_Regrade']">
         {props.text}
       </span>
     </button>

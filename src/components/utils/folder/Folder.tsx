@@ -18,7 +18,7 @@ const Folder: React.FC<FolderProps> = ({
   return (
     <div className={`${className} overflow-hidden  box w-full flex flex-col`}>
       <div className={`py-[20px] px-[15px] ${titleClassName}`}>
-        <h3 className="text-black text-[32px] font-bold font-['Neue Regrade']">
+        <h3 className="text-black text-[32px] font-bold font-['Neue_Regrade']">
           {title}
         </h3>
       </div>
@@ -29,7 +29,7 @@ const Folder: React.FC<FolderProps> = ({
         {seeMoreLink && (
           <a
             href={seeMoreLink}
-            className="text-black text-xl font-medium font-['Neue Regrade'] underline"
+            className="text-black text-xl font-medium font-['Neue_Regrade'] underline"
           >
             Ver más
           </a>

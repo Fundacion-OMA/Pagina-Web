@@ -10,10 +10,10 @@ const Home = () => {
   return (
     <>
       <header className="py-[32px]">
-        <h1 className="text-black text-8xl font-extrabold font-['Neue Regrade']">
+        <h1 className="text-black text-8xl font-extrabold font-['Neue_Regrade']">
           OMA
         </h1>
-        <h2 className="text-black text-2xl font-medium font-['Neue Regrade']">
+        <h2 className="text-black text-2xl font-medium font-['Neue_Regrade']">
           Olimpíada Matemática Argentina
         </h2>
       </header>
@@ -27,7 +27,7 @@ const Home = () => {
               bodyClassName="bg-oma-lightpurple"
               seeMoreLink="/novedades"
             >
-              <p className="text-black text-xl font-normal font-['Neue Regrade']">
+              <p className="text-black text-xl font-normal font-['Neue_Regrade']">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 cursus dignissim rutrum. Curabitur sollicitudin hendrerit lorem,
                 ut tempus urna luctus et. Etiam tincidunt lobortis iaculis.
@@ -91,7 +91,7 @@ const Home = () => {
             bodyClassName="bg-oma-lightyellow"
             seeMoreLink="/novedades"
           >
-            <p className="text-black text-xl font-normal font-['Neue Regrade']">
+            <p className="text-black text-xl font-normal font-['Neue_Regrade']">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               cursus dignissim rutrum. Curabitur sollicitudin hendrerit lorem,
               ut tempus urna luctus et. Etiam tincidunt lobortis iaculis.
